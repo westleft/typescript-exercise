@@ -1,8 +1,8 @@
 class School {
   private schools: string[] = [];
 
-  // private readonly schoolID: string
-  // private schoolName: string
+  // private readonly schoolID: string;
+  // private schoolName: string;
 
   // 將上面的值寫進建構子的參數
   constructor(private readonly schoolID: string, private schoolName: string) {
